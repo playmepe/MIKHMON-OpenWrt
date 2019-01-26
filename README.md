@@ -1,9 +1,13 @@
 # MIKHMON-OpenWrt
 MIKHMON OpenWrt Installer by Muhammad Tri Anwarruddin
 
+## Requirements
+1. Make sure the OpenWrt Router is connected to the Internet
+2. OpenWrt version is 17.01.5 or higher
+3. The router has <b>≥16MB</b> of free storage space (<i><b>extroot</b> is highly recommended for most devices</i>)
+
 ## How To Use
-1. Make sure the router is connected to the Internet
-2. Access the router via SSH and run
+Access the router via SSH and run
 ```
 root@OpenWrt~# curl -o /tmp/mikhmon.ipk -k https://raw.githubusercontent.com/anwareset/MIKHMON-OpenWrt/master/mikhmon_1.0-1_mips_24kc.ipk
 root@OpenWrt~# cd /tmp && opkg install mikhmon.ipk
