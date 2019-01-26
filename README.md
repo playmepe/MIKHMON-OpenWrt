@@ -11,5 +11,11 @@ root@OpenWrt~# mikhmon
 ```
 
 ## Preview
-![preview](https://raw.githubusercontent.com/anwareset/MIKHMON-OpenWrt/master/Screenshot_2019-01-26_21-26-09.png)
-![preview](https://raw.githubusercontent.com/anwareset/MIKHMON-OpenWrt/master/Screenshot_2019-01-26_21-35-55.png)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anwareset/MIKHMON-OpenWrt/master/Screenshot_2019-01-26_21-26-09.png">
+</p>
+</br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anwareset/MIKHMON-OpenWrt/master/Screenshot_2019-01-26_21-35-55.png">
+</p>
