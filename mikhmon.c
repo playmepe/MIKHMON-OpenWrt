@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[]){
 	printf("\n\n[Step 1] Update repository and install additional packages\n\n");
-	system("opkg update && opkg install php7 php7-cgi php7-mod-session php7-mod-gmp nano unzip curl");
+	system("opkg update && opkg install php7 php7-cgi php7-mod-session php7-mod-gmp php7-mod-gettext php7-mod-iconv php7-mod-json php7-mod-pcntl nano unzip curl");
 	printf("\n\n[Step 2] Download the source and configuration file\n\n");
 	system("curl -o /tmp/version -k https://raw.githubusercontent.com/laksa19/mikhmonv3/master/verson.txt");
 	printf("\n\nDetected MIKHMON version... \n");
@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]){
 	system("cat /tmp/version");
 	printf("\n\nURL\t\t: http://[ROUTER IP]/mikhmon/\nUsername\t: mikhmon\nPassword\t: 1234\n\nMIKHMON OpenWrt Installer by Muhammad Tri Anwarruddin\n");
 	printf("\nRebooting..\n");
-	//system("reboot");
+	system("reboot");
 	return 0;
 }
 
